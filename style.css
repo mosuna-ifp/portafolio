@@ -1,0 +1,104 @@
+:root {
+    /* Aquí hi van les variables */
+}
+
+* {
+    /* Aquí hi va el reset */
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@font-face {
+    /* Aquí hi van les fonts personalitzades */
+}
+
+
+    /* Aquí hi van propietats generals */
+
+body {
+    background: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #030EF5;
+    margin: 0;
+}
+
+.barra {
+    background-color: white;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    background: green;
+}
+
+.cap {
+
+}
+
+.nom {
+    color: 030EF5;
+    float: left;
+    background: fuchsia;
+
+}
+
+.titulo {
+    width: 300px;
+    color: 030EF5;
+    text-align: center;
+    background: red;
+}
+
+.any {
+    float: right;
+    background-color: yellow;
+    position: relative;0
+}
+
+li { 
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background: white;
+    margin: 1rem;
+    float: left;
+    list-style-type: none;
+    text-align: center;
+    align-content: center;
+
+}
+
+ul {
+    width: 36rem;
+    margin: auto;
+}
+
+
+    /* Aquí hi van propietats responsives */
+
+
+
+@media (max-width:480px) 
+    /* Aquí hi va la versió mòbil */
+ {
+
+    
+ }
+
+@media (min-width:481px) and (max-width:1279px) 
+ {
+
+        li {
+            background: #030EF5;
+            color: white;
+        }
+    
+ }
+
+
+@media (min-width:1280px)
+ {
+    body {
+        background: #030EF5;
+    }

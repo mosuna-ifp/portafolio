@@ -1,0 +1,86 @@
+body {
+    background-color: white;
+}
+
+.logo {
+    background-color: navy;
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    text-align: center;
+    font-size: 150px;
+    margin: auto;
+    color: skyblue;
+    font-family: Arial bold, sans-serif;
+    line-height: 200px;
+    font-weight: bold;
+    letter-spacing: -4px;
+}
+
+.contenidor {
+    width: 1100px;
+    margin: auto;
+    float: left;
+}
+
+.efecte {
+    width: 200px;
+    margin: 10px;
+    float: left;
+}
+
+.efecte img {
+    width: 200px;
+    align: center;
+}
+
+.efecte p {
+    text-align: center;
+}
+
+.efecte input {
+    width: 200px;
+}
+
+.desenfocar img {
+    -webkit-filter: blur(10px);
+       -moz-filter: blur {10px};
+         -o-filter: blur {10px};
+            filter: blur(3px);
+}
+
+.grisos img {
+    filter: grayscale(100%);
+}
+
+.ombra img {
+    filter: drop-shadow(6px 6px 6px purple);
+}
+
+.sepia img {
+    filter: sepia(100%);
+}
+
+.lluminositat img {
+    filter: brightness(50%);
+}
+
+.contrast img {
+    filter: contrast(50%);
+}
+
+.to img {
+    filter: hue-rotate(90deg);
+}
+
+.invertir img {
+    filter: invert(70%);
+}
+
+.saturar img {
+    filter: saturate(20%);
+}
+
+.opacitat img {
+    filter: opacity(40%);
+}

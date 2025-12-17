@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+.contenidor {
+    width: 1716px;
+    margin: auto;
+}
+
+.nav {
+    height: 166px;
+}
+
+.friends {
+    height: 180px;
+    width: 1300px;
+    margin: auto;
+}
+
+.pics {
+    background-color: aqua;
+    height: 1860px;
+    text-shadow: black;
+}
+
+.logo {
+    height: 45px;
+    width: 215px;
+    background-color: white;
+    float: left;
+    margin: 40px 0 0 0;
+    background-image:url();
+}
+
+.menu {
+    height: 37px;
+    width: 299px;
+    float: left;
+    margin: 40px 0 0 493px;
+
+    
+}
+
+.menu ul li {
+    width: 40px;
+    height: 40px;
+
+    margin: 0 10px;
+    float: left;
+    display: block;
+    background-image: url()
+}
+
+.menu ul li:hover {
+    opacity: 0.6;
+}
+
+.inici {
+    background-position:-8px -2px;
+}
+
+.cerca {
+    background-position: -93px -2px;
+}
+
+.directes {
+    background-position: -174px 0;
+}
+
+.favorits {
+    background-position: -259px -0px;
+
+}
+
+.menu ul {
+    margin: 0;
+}
+
+.perfil {
+    width: 96px;
+    height: 120px;
+    margin: 20px;
+    float: left;
+    text-align: center;
+    opacity: 0.6;
+
+}
+
+.foto  {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    float: left;
+    background-image:url();    border: brown 5px solid;
+    box-shadow: inset 0px 0px 10px white;
+}
+
+.nil {
+    background-image:url(Fotos/cubarsi.jpg); 
+    float: left;
+    position: relative;
+    width: 96px;
+    height: 96px;
+    background-size: cover;
+}
+
+.marc {
+    background-image:url(Fotos/ab6761610000517486ea7f33c8d9c3f51faa2104.jpg);
+    float: left;
+    position: relative;
+    width: 96px;
+    height: 96px;
+    background-size: cover;
+}
+
+.mario {
+    background-image:url(Fotos/A-4993728-1518194094-9129.jpg);
+    float: left;
+    position: relative;
+    width: 96px;
+    height: 96px;
+    background-size: cover;
+}
+
+.juanki {
+    background-image:url(Fotos/rate-faze-marlon-and-how-does-he-compare-to-jeremy-meeks-v0-cpmts8napb0f1.png);
+    float: left;
+    position: relative;
+    width: 96px;
+    height: 96px;
+    background-size: cover;
+}
+
+.tolga {
+    background-image:url(Fotos/sengun.jpg);
+    float: left;
+    position: relative;
+    width: 96px;
+    height: 96px;
+    background-size: cover;
+}
+
+.alejandro {
+    background-image:url(Fotos/channels4_profile.jpg);
+    float: left;
+    position: relative;
+    width: 96px;
+    height: 96px;
+    background-size: cover;
+}
+
+.jordi {
+    background-image:url(Fotos/302af751-2365-4a99-b5de-2e68eb96358a_450x450.png);
+    float: left;
+    position: relative;
+    width: 96px;
+    height: 96px;
+    background-size: cover;
+}
+
+.post {
+    width: 536px;
+    height: 620px;
+    background-color: red;
+}
+
+.imatge {
+    width: 536px;
+    height: 536px;
+    background-image:url(Fotos/ab6761610000517486ea7f33c8d9c3f51faa2104.jpg);
+    background-size: cover;
+}
+
+.info {
+    width: 268px;
+    height: 84px;
+    background-color: yellow;
+    float: left;
+}
+
+.reaccions {
+    width: 268px;
+    height: 84px;
+    background-color: yellowgreen;
+    float: right;
+}
+
+.perfil:hover {
+    opacity: 1;
+}
+
+
+.afegir {
+    width: 20px;
+    height: 20px;
+    background: blue;
+    border-radius: 50%;
+    border: 5px solid white;
+    text align: center;
+    position: relative;
+    left: 70px;
+    bottom: 70px;
+    color: white;
+    line-height: 20px;
+}
