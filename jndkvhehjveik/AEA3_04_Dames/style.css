@@ -1,0 +1,114 @@
+body{
+
+}
+
+.contenidor {
+    width: 800px;
+    height: 800px;
+    background-color: brown;
+    margin: auto;
+    border: 10px solid maroon;
+}
+
+.filera:nth-child(2n) {
+    background-color: white;
+    width: 800px;
+    height: 100px;
+
+}
+
+.filera:nth-child(2n+1) {
+    background-color: black;
+    width: 800px;
+    height: 100px;
+}
+
+.casella {
+    width: 80px;
+    height: 80px;
+    background-color: gold;
+    padding: 10px;
+    float: left;
+}
+
+.filera:nth-child(2n) .casella:nth-child(2n) {
+    background-image: linear-gradient(white, rgb(172, 172, 172));
+}
+
+.filera:nth-child(2n) .casella:nth-child(2n+1) {
+    background-image: linear-gradient( black, rgb(42, 42, 42));
+}
+
+.filera:nth-child(2n+1) .casella:nth-child(2n) {
+    background-image: linear-gradient( black, rgb(42, 42, 42));
+}
+
+.filera:nth-child(2n+1) .casella:nth-child(2n+1) {
+    background-image: linear-gradient(white, rgb(172, 172, 172));
+}
+
+.fitxa {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px #999;
+}
+
+.filera:nth-child(2n) .casella:nth-child(2n) .fitxa {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: radial-gradient(rgb(255, 0, 0), rgb(255, 115, 0));
+}
+
+.filera:nth-child(2n) .casella:nth-child(2n+1) .fitxa {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgb(255, 230, 0), rgb(255, 132, 0));
+}
+
+.filera:nth-child(2n+1) .casella:nth-child(2n) .fitxa {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: radial-gradient(rgb(255, 0, 0), rgb(255, 115, 0));
+}
+
+.filera:nth-child(2n+1) .casella:nth-child(2n+1) .fitxa {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgb(255, 230, 0), rgb(255, 132, 0));
+    
+}
+
+/*
+.filera:nth-child(3) .fitxa, .filera:nth-child(4) .fitxa, .filera:nth-child(5) .fitxa, .filera:nth-child(6) .fitxa {
+    display: none;
+}
+*/
+
+.filera:nth-child(n+3):nth-child(-n+6) .fitxa {
+    display: none;
+}
+
+.fitxa{
+    position: relative;
+}
+
+.fitxa:hover {
+    top: 100px;
+}
+
+.filera:nth-child(1) .fitxa:hover{
+    top: 200px;
+}
+
+.filera:nth-child(7) .fitxa:hover{
+    top: -100px;
+}
+
+.filera:nth-child(8) .fitxa:hover{
+    top: -200px;
+}

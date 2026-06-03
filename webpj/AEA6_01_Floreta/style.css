@@ -1,0 +1,139 @@
+body {
+    background: white;
+}
+
+.fulla {
+    width: 100px;
+    height: 100px;
+    background: green;
+    border-radius: 100% 0% 100% 0%;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    transform-origin: bottom left;
+    background-image: linear-gradient(45deg, rgb(84, 0, 63), rgb(223, 59, 174), rgb(230, 98, 181));
+}
+
+.flor {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    z-index: 10;
+
+}
+
+.f1 {
+    transform: rotate(0deg);
+    
+}
+
+.f2 {
+    transform: rotate(60deg);
+    
+}
+
+.f3 {
+    transform: rotate(120deg);
+    
+}
+
+.f4 {
+    transform: rotate(180deg);
+    
+}
+
+.f5 {
+    transform: rotate(240deg);
+    
+}
+
+.f6 {
+    transform: rotate(300deg);
+    
+}
+
+.cor {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: rgb(255, 83, 195);
+    position: absolute;
+    top: 125px;
+    left: 125px;
+    background-image: radial-gradient(rgb(255, 133, 204), rgb(102, 0, 76));
+}
+
+@keyframes rotacio {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.t1 {
+    height: 370px;
+    width: 15px;
+    background: green;
+    position: relative;
+    left: 143px;
+    top: -135px;
+    float: left;
+    z-index: 2;
+    background-image: linear-gradient(yellowgreen, darkgreen);
+}
+
+.ft1 {
+     width: 80px;
+    height: 80px;
+    background: green;
+    border-radius: 100% 0% 100% 0%;
+    position: relative;
+    left: 150px;
+    top: -15px;
+    background-image: linear-gradient(yellowgreen, darkgreen);
+}
+
+.ft2 {
+     width: 80px;
+    height: 80px;
+    background: green;
+    border-radius: 0% 100% 0% 100%;
+    position: relative;
+    left: 70px;
+    top: -30px;
+    background-image: linear-gradient(yellowgreen, darkgreen);
+}
+
+.sup {
+    height: 30px;
+    width: 200px;
+    background: brown;
+    position: relative;
+    left: 50px;
+    z-index: 4;
+    background-image: linear-gradient(brown, rgb(83, 0, 0));
+    border-radius: 10% 10% 30% 30%;
+}
+
+.inf {
+    height: 130px;
+    width: 180px;
+    background: brown;
+    border-radius: 0% 0% 20% 20%;
+    position: relative;
+    left: 60px;
+    top: -10px;
+    z-index: 3;
+     background-image: linear-gradient(brown, rgb(83, 0, 0));
+}
+
+.conjunt:hover .flor {
+    animation: 0.9s rotacio linear infinite;
+}
+
+.conjunt {
+    width: 300px;
+}
